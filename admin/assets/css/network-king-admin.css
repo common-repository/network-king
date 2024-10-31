@@ -1,0 +1,33 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+ 
+/*** Table Styles **/
+
+.table-fill {
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  margin: auto;
+ // min-width: 800px;
+  padding:2px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+.table-fill thead { border-top:none;  background-color:rgb(236, 236, 236);}
+td {  
+  padding:10px;
+  text-align:left;
+  vertical-align:middle;
+  font-size:14px;
+  border-right: 1px solid #C1C3D1;
+}  
+tr:hover td {
+  background:rgb(236, 236, 236);
+  
+}
+ 
+
